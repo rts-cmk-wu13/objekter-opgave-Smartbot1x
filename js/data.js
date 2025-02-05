@@ -1,4 +1,6 @@
 
+
+
 let hero = {
     image: "https://dazzling-squirrel-77a63d.netlify.app/imgs/hero.png",
     headline: "Find out how we can save your time in Backpacking in Europe",
@@ -94,5 +96,12 @@ let advantages = [
         text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
     },
 ]
+let header = {
+    logo: `<i class="fa-solid fa-cube"></i>`, 
+    button: {
+        icon: "fa-solid fa-user" 
+    }
+};
 
 // Opret dit dataobjekt til footerens indhold herunder
+

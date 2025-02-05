@@ -1,0 +1,38 @@
+:root {
+    --bttn-clr: #F78065;
+    --hvid-background: #ffffff;
+    --heading-clr: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper, body {
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: var(--hvid-background);
+     
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+header,
+main,
+footer {
+    padding: 0 2em;
+}
+button {
+    background-color: var(--bttn-clr);
+}
+
+.fa-cube {
+    color: var(--bttn-clr);
+    background-color: var(--hvid-background);
+    transition: 0.5s;
+}

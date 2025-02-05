@@ -1,0 +1,32 @@
+section.services {
+    margin: 0 auto;
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  column-gap: 100px;
+  
+}
+.service__cards {
+    display: grid;
+    gap: 20px;
+    width: 24.125rem;
+}
+.service__heading {
+    font: 800 24px/24px 'Poppins', sans-serif;  
+    color: var(--heading-clr);  
+}
+.service__linktxt {
+    font: 400 16px/24px 'Montserrat', sans-serif;
+    color: var(--bttn-clr);
+    text-decoration: none;
+}
+.service__txt {
+    font: 400 16px/24px 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.service__cards img {
+  width: 15.4375rem;
+  max-width: 100%;
+}
